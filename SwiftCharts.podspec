@@ -9,4 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/i-schuetz/SwiftCharts.git", :tag => '0.3' }
   s.source_files = 'SwiftCharts/*.swift', 'SwiftCharts/**/*.swift'
   s.frameworks = "Foundation", "UIKit", "CoreGraphics"
+  s.platform     = :ios, "8.0"
+  s.platform     = :tvos, "9.0"
+
 end
